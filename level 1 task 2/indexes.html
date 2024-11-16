@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresher Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="lightcyan">
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-me">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="roobiga.jpg" alt="Profile Picture">
+                    <p>Hello! I'm Roobiga, a fresher looking for opportunities in IT.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>Programming languages: C, Python Programming</li>
+            <li>Web development: HTML, CSS, JavaScript</li>
+            <li>Database management: SQL Programming</li>
+            <li>Excel</li>
+            <!-- Add more skills here -->
+        </ul>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Login Page Website, a simple login page example using HTML, CSS, and JavaScript. This example 
+                    includes a basic structure for a login form with fields for a username and 
+                    password and a button to submit the login data.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Sales Dashboard, creating a basic Sales Dashboard in Excel, covering the essential content 
+                    and functionality to visualize key sales metrics.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Resume Section -->
+    <section id="resume">
+        <h1>Resume</h1>
+        <embed src="Roobiga.K.pdf" type="application/pdf" width="100%" height="500px">
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Get in Touch</h1>
+        <form action="/submit" method="POST">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <br>
+        
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+        
+            <!-- Message Field -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            <br>
+        
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+        
+    </section>
+    
+    <!-- Footer Section -->
+        <footer class="novi-bg novi-bg-img footer-minimal bg-black">
+            <div class="container">
+                  <dl class="list-terms-minimal" style="color: black;">
+                    Address:51, T.V.R Road, Mayiladuthurai.
+                  </dl>
+                  <dl class="list-terms-minimal" style="color: black;">
+                    Phones:
+                        <a href="tel:#">6382213717</a>
+                  </dl>
+                  <dl class="list-terms-minimal" style="color: black;">
+                    E-mail:<a href="mailto:#">roobigakanakasabai@gmail.com</a>
+                  </dl>
+                  
+                  <a href="mailto:9876543210"><img src="whatsapp-icon-logo-svgrepo-com.svg" class="rounded-circle" alt="Cinque Terre" width="25" height="30"></a>  
+                  <a href="mailto:9876543210"><img src="phone-call-svgrepo-com.svg" class="rounded-circle" alt="Cinque Terre" width="25" height="25"></a>    
+                  <a href="mailto:roobigakanakasabai@gmail.com"><img src="gmail-old-svgrepo-com.svg" class="rounded-circle" alt="Cinque Terre" width="25" height="30"></a>
+                      <dl style="color: white;">
+                  </dl>
+                  </div>
+    
+        <p>&copy; 2024 Roobiga</p>
+    </footer>
+</body>
+</html>
